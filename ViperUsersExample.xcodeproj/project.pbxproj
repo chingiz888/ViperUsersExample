@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		1CBF4D092CC833FB0041A8DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBF4D082CC833FB0041A8DA /* AppDelegate.swift */; };
 		1CBF4D0B2CC833FB0041A8DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBF4D0A2CC833FB0041A8DA /* SceneDelegate.swift */; };
-		1CBF4D0D2CC833FB0041A8DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBF4D0C2CC833FB0041A8DA /* ViewController.swift */; };
+		1CBF4D0D2CC833FB0041A8DA /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBF4D0C2CC833FB0041A8DA /* UsersViewController.swift */; };
 		1CBF4D102CC833FB0041A8DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CBF4D0E2CC833FB0041A8DA /* Main.storyboard */; };
 		1CBF4D122CC833FD0041A8DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CBF4D112CC833FD0041A8DA /* Assets.xcassets */; };
 		1CBF4D152CC833FD0041A8DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CBF4D132CC833FD0041A8DA /* LaunchScreen.storyboard */; };
+		1CBF4D202CC8347D0041A8DA /* UsersProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBF4D1F2CC8347D0041A8DA /* UsersProtocols.swift */; };
+		1CBF4D222CC834B60041A8DA /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBF4D212CC834B60041A8DA /* Users.swift */; };
+		1CBF4D242CC834DC0041A8DA /* UsersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBF4D232CC834DC0041A8DA /* UsersViewModel.swift */; };
+		1CBF4D262CC8352C0041A8DA /* UsersService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBF4D252CC8352C0041A8DA /* UsersService.swift */; };
+		1CBF4D282CC836CA0041A8DA /* UsersPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBF4D272CC836CA0041A8DA /* UsersPresenter.swift */; };
+		1CBF4D2A2CC836DC0041A8DA /* UsersInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBF4D292CC836DC0041A8DA /* UsersInteractor.swift */; };
+		1CBF4D2C2CC836EA0041A8DA /* UsersRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBF4D2B2CC836EA0041A8DA /* UsersRouter.swift */; };
+		1CBF4D2E2CC838150041A8DA /* UsersBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBF4D2D2CC838150041A8DA /* UsersBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1CBF4D052CC833FB0041A8DA /* ViperUsersExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViperUsersExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CBF4D082CC833FB0041A8DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CBF4D0A2CC833FB0041A8DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1CBF4D0C2CC833FB0041A8DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1CBF4D0C2CC833FB0041A8DA /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
 		1CBF4D0F2CC833FB0041A8DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1CBF4D112CC833FD0041A8DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CBF4D142CC833FD0041A8DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CBF4D162CC833FD0041A8DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CBF4D1F2CC8347D0041A8DA /* UsersProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersProtocols.swift; sourceTree = "<group>"; };
+		1CBF4D212CC834B60041A8DA /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		1CBF4D232CC834DC0041A8DA /* UsersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewModel.swift; sourceTree = "<group>"; };
+		1CBF4D252CC8352C0041A8DA /* UsersService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersService.swift; sourceTree = "<group>"; };
+		1CBF4D272CC836CA0041A8DA /* UsersPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersPresenter.swift; sourceTree = "<group>"; };
+		1CBF4D292CC836DC0041A8DA /* UsersInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersInteractor.swift; sourceTree = "<group>"; };
+		1CBF4D2B2CC836EA0041A8DA /* UsersRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersRouter.swift; sourceTree = "<group>"; };
+		1CBF4D2D2CC838150041A8DA /* UsersBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,47 @@
 		1CBF4D072CC833FB0041A8DA /* ViperUsersExample */ = {
 			isa = PBXGroup;
 			children = (
+				1CBF4D1E2CC834560041A8DA /* Users */,
+				1CBF4D1D2CC834180041A8DA /* Resources */,
+				1CBF4D1C2CC834080041A8DA /* Application */,
+			);
+			path = ViperUsersExample;
+			sourceTree = "<group>";
+		};
+		1CBF4D1C2CC834080041A8DA /* Application */ = {
+			isa = PBXGroup;
+			children = (
 				1CBF4D082CC833FB0041A8DA /* AppDelegate.swift */,
 				1CBF4D0A2CC833FB0041A8DA /* SceneDelegate.swift */,
-				1CBF4D0C2CC833FB0041A8DA /* ViewController.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		1CBF4D1D2CC834180041A8DA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				1CBF4D0E2CC833FB0041A8DA /* Main.storyboard */,
 				1CBF4D112CC833FD0041A8DA /* Assets.xcassets */,
 				1CBF4D132CC833FD0041A8DA /* LaunchScreen.storyboard */,
 				1CBF4D162CC833FD0041A8DA /* Info.plist */,
 			);
-			path = ViperUsersExample;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1CBF4D1E2CC834560041A8DA /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				1CBF4D1F2CC8347D0041A8DA /* UsersProtocols.swift */,
+				1CBF4D212CC834B60041A8DA /* Users.swift */,
+				1CBF4D232CC834DC0041A8DA /* UsersViewModel.swift */,
+				1CBF4D252CC8352C0041A8DA /* UsersService.swift */,
+				1CBF4D272CC836CA0041A8DA /* UsersPresenter.swift */,
+				1CBF4D292CC836DC0041A8DA /* UsersInteractor.swift */,
+				1CBF4D2B2CC836EA0041A8DA /* UsersRouter.swift */,
+				1CBF4D2D2CC838150041A8DA /* UsersBuilder.swift */,
+				1CBF4D0C2CC833FB0041A8DA /* UsersViewController.swift */,
+			);
+			path = Users;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +186,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CBF4D0D2CC833FB0041A8DA /* ViewController.swift in Sources */,
+				1CBF4D2E2CC838150041A8DA /* UsersBuilder.swift in Sources */,
+				1CBF4D0D2CC833FB0041A8DA /* UsersViewController.swift in Sources */,
+				1CBF4D2A2CC836DC0041A8DA /* UsersInteractor.swift in Sources */,
+				1CBF4D282CC836CA0041A8DA /* UsersPresenter.swift in Sources */,
+				1CBF4D2C2CC836EA0041A8DA /* UsersRouter.swift in Sources */,
+				1CBF4D242CC834DC0041A8DA /* UsersViewModel.swift in Sources */,
 				1CBF4D092CC833FB0041A8DA /* AppDelegate.swift in Sources */,
+				1CBF4D222CC834B60041A8DA /* Users.swift in Sources */,
+				1CBF4D202CC8347D0041A8DA /* UsersProtocols.swift in Sources */,
+				1CBF4D262CC8352C0041A8DA /* UsersService.swift in Sources */,
 				1CBF4D0B2CC833FB0041A8DA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,7 +349,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ViperUsersExample/Info.plist;
+				INFOPLIST_FILE = ViperUsersExample/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -320,7 +376,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ViperUsersExample/Info.plist;
+				INFOPLIST_FILE = ViperUsersExample/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
